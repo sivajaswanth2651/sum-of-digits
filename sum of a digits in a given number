@@ -1,0 +1,7 @@
+dgt=123
+sum=0
+while(dgt!=0):
+	r=dgt%10
+	sum=sum+r
+	dgt=dgt//10
+print(sum)
